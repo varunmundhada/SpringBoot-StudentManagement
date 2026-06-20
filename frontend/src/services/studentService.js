@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8085/api/Student';
+const API_BASE_URL = 'https://cold-news-slide.loca.lt/api/Student';
 
 const studentService = {
   getAllStudents: async () => {
