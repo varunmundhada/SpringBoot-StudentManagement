@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.studentproject.demo.service.StudentService;
 import com.studentproject.demo.studentproject.demo.entity.Student;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/Student")
 public class StudentController {
