@@ -1,5 +1,8 @@
 import axios from 'axios';
 
+// Bypass the localtunnel warning page for background API requests
+axios.defaults.headers.common['Bypass-Tunnel-Reminder'] = 'true';
+
 const API_BASE_URL = 'https://cold-news-slide.loca.lt/api/Student';
 
 const studentService = {
